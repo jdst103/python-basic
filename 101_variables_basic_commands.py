@@ -25,6 +25,7 @@ print(box_pillows)
 #type()
 #returns the data type of the variable
 print(type('14'))
+print(type(14))
 
 what_type_is_this_amazing_thing = type('hello')
 print(what_type_is_this_amazing_thing)
