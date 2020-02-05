@@ -54,3 +54,38 @@ print(my_variables == 10)
 print(my_variables >= my_variables2)
 
 print(my_variables2 is 13)
+
+# Booleans
+# True or False
+# Binary True or False
+print(type(True))
+
+
+#None
+print(None)
+print(type(None))
+
+print(0 == None)
+
+#Operators, logical & logical or
+
+a_var = True
+b_var = False
+#Logical and & requires both sides to be true to result in true syntax
+#syntax - both sides needs to be true
+# (assertion a & assertion b) --> boolean
+print(a_var & True)
+print(a_var & False)
+
+#Logical or, only one side needs to be true to return true:
+print(' this will be true>>>>')
+print(True or False)
+james = 'sitting'
+print(james == 'sitting' or 10 >300000)
+print(james == 'sitting' or False)
+
+#list
+my_list = ('blue', 'red', 'yellow', 'green')
+
+#dictionary
+my_dictionary = {"Jason": "red", "Hamza": "blue", "Abdi": "yellow"}
