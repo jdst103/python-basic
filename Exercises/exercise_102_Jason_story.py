@@ -1,11 +1,3 @@
-# define a dictionary with the following keys:
-
-# beginning
-# middle
-# end
-# heroine/hero
-
-# populate the values of the keys, with a story broken into start, middle, end.
 
 #Creating Begininng of story dictionary
 beginning_dict = {
@@ -56,9 +48,9 @@ if whole_story == 'no':
     if which_chapter == 'end':
         print(Stories_list[0]['end'])
 
-#print(Stories_list[0]['beginning']['end_of_beginning'])
+#--> ignore
+# #print(Stories_list[0]['beginning']['end_of_beginning'])
 #print(Stories_list[0]['beginning']['middle_of_beginning'])
 #print(Stories_list[0]['end']['end_of_story'])
-
 #print(Stories_list[1]['beginning'])
 

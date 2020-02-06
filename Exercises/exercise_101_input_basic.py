@@ -14,7 +14,7 @@
 print("hello, what is your name?")
 name = input()
 print(f"hello {name}, what is your hieght?")
-hieght = input()
+height = input()
 print(f"wow !! Very tall {name}, what is your favourite colour?")
 colour = input()
 print(f"{colour}? interesting colour!")
