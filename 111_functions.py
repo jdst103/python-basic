@@ -1,6 +1,7 @@
 # Functions
 # Functions have one job
 # Functions are like machines,
+#it needs to be turn on
 #They can take in inputs (optionally), do some work (block of code), and have  outputs
 # It makes you code more readable, maintainable and testable.
 
@@ -28,4 +29,23 @@
 def say_hello():
     return 'hello'
 
-print(say_hello())
+#print(say_hello()) # calling a function
+
+#function with arguments
+def full_name(f_name, l_name):  #taking in two arguments
+    return f_name +' ' + l_name
+
+#print(full_name('Bernie', 'Sanders'))
+
+def welcome_message(f_name, l_name):
+    full_name_str = full_name(f_name, l_name)
+    welcome_str = say_hello()
+    return welcome_str + ' ' + full_name_str
+
+print(welcome_message('filipe', 'paiva'))
+
+
+def adding(num1, num2):
+    return num1 + num2
+
+print(adding(300,300))
