@@ -28,24 +28,24 @@ while game != 'STOP':
         # multiples of 3 and 5 are FizzBuzz
         if check_3(number) and check_5(number):
             print('FizzBuzz!')
-            increase_number(number)
             time_sleep()
+            # increase_number(number) # Can use this function if using a while loop #
 
         # multiple of 3 are POP
         elif check_3(number):
             print('POP!')
-            increase_number(number)
+            #increase_number(number) #
             time_sleep()
 
         # multiple of 5 are TOC
         elif check_5(number):
             print('TOC!')
-            increase_number(number)
+            #increase_number(number) #
             time_sleep()
 
         else:
             print(number)
-            increase_number(number)
+            #increase_number(number) #
             time_sleep()
 
     # As a player, I should be able to exit the game using a key word,
